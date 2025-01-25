@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+    background-color: hsl(0, 0%, 8%);
+
+    width: 100%;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr auto;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 27%;
+    height: 75%;
+    max-width: 400px;
+    min-width: 325px;
+    min-height: 600px;
+
+    padding: 1.5rem;
+    background-color: hsl(0, 0%, 12%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 footer {
     font-size: 11px;
     padding-bottom: 3rem;
+    color: hsl(0, 0%, 100%);
 }
 
 footer a {
     text-align: center;
-    color: hsl(228, 45%, 44%)
+    color: hsl(227, 53%, 70%)
 }
