@@ -1,0 +1,9 @@
+footer {
+    font-size: 11px;
+    padding-bottom: 3rem;
+}
+
+footer a {
+    text-align: center;
+    color: hsl(228, 45%, 44%)
+}
