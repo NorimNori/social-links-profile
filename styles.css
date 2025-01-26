@@ -97,6 +97,13 @@ main {
     border-radius: 8px;
     text-align: center;
     background-color: hsl(0, 0%, 20%);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile__links-item:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
 }
 
 .profile__link {
